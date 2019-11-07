@@ -15,7 +15,7 @@ improvements.
 
 ### Community Interest Company Registration
 
-- [ ] [Articles of Assocation](articles-of-association.md)
+- [ ] [Articles of Assocation](cic/articles-of-association-by-shares-schedule-3-large-membership.md)
 - [ ] [CIC36](cic-36.md)
 - [ ] [Companies House Filing](https://beta.companieshouse.gov.uk/company/<tbd>)
 
