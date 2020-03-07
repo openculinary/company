@@ -18,6 +18,7 @@ improvements.
 - [x] [Articles of Assocation](cic/articles-of-association-by-shares-schedule-3-large-membership.md)
 - [x] [CIC36](cic/cic36.md)
 - [x] [Companies House Filing](https://beta.companieshouse.gov.uk/company/SC647817)
+- [x] [Certificate of Incorporation](cic/incorporation.pdf)
 
 ### Directors
 
