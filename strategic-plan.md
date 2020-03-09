@@ -19,8 +19,8 @@ To build a free open-source recipe search engine and meal planner.
 2. **Develop advanced recipe search functions**
 
  *Objectives*
-- Weight ingredients by freshness
-- Weight ingredients by "significance"
+- Evaluate recipe relevance based on ingredient freshness
+- Evaluate recipe relevance based on ingredient "significance"
 
 3. **Provide inventory management**
 
