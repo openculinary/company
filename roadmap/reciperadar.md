@@ -3,6 +3,7 @@
 | Product Area            | Description                      | Benefits                           | Dependencies |
 |-------------------------|----------------------------------|------------------------------------|--------------|
 | User productivity       |                                  |                                    |              |
+|                         | Spelling corrections             | Increase ingredient findability    |              |
 |                         | Recipe detail page               | Improved readability               |              |
 |                         | Recipe yield scaling             | Handle additional use cases        |              |
 | Developer productivity  |                                  |                                    |              |
@@ -30,6 +31,9 @@
 |                         | Local container workflows        | Ease development, testing & QA       |                      |
 |                         | Upstream feedback.js changes     | Simplify dependencies                |                      |
 |                         |                                  | Community goodwill and participation |                      |
+| Quality assurance       |                                  |                                      |                      |
+|                         | Add recipe debug panel           | Improve recipe metadata quality      |                      |
+|                         |                                  | Speed up data quality investigations |                      |
 | Recipe metadata         |                                  |                                      |                      |
 |                         | Collect: Nutritional information | User health and reference            |                      |
 |                         | Extract: Temperature metadata    | Enabling feature                     |                      |
@@ -44,6 +48,7 @@
 |                         | Inventory management             | Decrease food wastage, expenditure   |                         |
 |                         | Suggested meal plans             | Provide nutritional balance          | Inventory management    |
 |                         | Suggested meal plans             | Provide nutritional balance          | Nutritional information |
+|                         | Dietary diagnostics              | Improve digestive health             |                         |
 | Recipe metadata         |                                  |                                      |                         |
 |                         | Collect: Ingredient seasonality  | User health and reference            |                         |
 |                         | Collect: Ingredient pricing      | Enabling feature                     |                         |
