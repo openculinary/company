@@ -3,7 +3,7 @@
 | Product Area            | Description                          | Benefits                           | Dependencies |
 |-------------------------|--------------------------------------|------------------------------------|--------------|
 | User productivity       |                                      |                                    |              |
-|                         | - [ ] Spelling corrections             | Increase ingredient findability    |              |
+|                         | <span>- [ ]</span> Spelling corrections             | Increase ingredient findability    |              |
 |                         | - [ ] Recipe detail page               | Improved readability               |              |
 |                         | - [ ] Recipe yield scaling             | Handle additional use cases        |              |
 | Developer productivity  |                                      |                                    |              |
