@@ -7,10 +7,10 @@
 |                         | Recipe detail page               | Improved readability               |              |                    |
 |                         | Recipe yield scaling             | Handle additional use cases        |              |                    |
 | Developer productivity  |                                  |                                    |              |                    |
-|                         | Simplify deployment              | Ease onboarding, rollbacks         |              |                    |
+|                         | Simplify deployment              | Ease onboarding, rollbacks         |              | :heavy_check_mark: |
 | Architecture investment |                                  |                                    |              |                    |
-|                         | Isolate DB & search index        | Uptime improvements                |              |                    |
-|                         | Support DB migrations            | Safer DB deployments               | Isolate DB   |                    |
+|                         | Isolate DB & search index        | Uptime improvements                |              | :heavy_check_mark: |
+|                         | Support DB migrations            | Safer DB deployments               | Isolate DB   | :heavy_check_mark: |
 |                         | Support localStrorage migrations | Enable frontend data model changes |              |                    |
 |                         | Consolidate entity extraction    | Ease maintenance and development   |              |                    |
 | Vendor selection        |                                  |                                    |              |                    |
