@@ -4,7 +4,7 @@
 |-------------------------|----------------------------------|------------------------------------|--------------|--------------------|
 | User productivity       |                                  |                                    |              |                    |
 |                         | Spelling corrections             | Increase ingredient findability    |              |                    |
-|                         | Recipe detail page               | Improved readability               |              |                    |
+|                         | Recipe detail page               | Improved readability               |              | :heavy_check_mark: |
 |                         | Recipe yield scaling             | Handle additional use cases        |              |                    |
 | Developer productivity  |                                  |                                    |              |                    |
 |                         | Simplify deployment              | Ease onboarding, rollbacks         |              | :heavy_check_mark: |
