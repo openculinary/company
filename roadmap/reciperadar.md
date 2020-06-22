@@ -14,7 +14,6 @@
 |                         | Support localStrorage migrations | Enable frontend data model changes |              |                    |
 |                         | Consolidate entity extraction    | Ease maintenance and development   |              |                    |
 | Vendor selection        |                                  |                                    |              |                    |
-|                         | Select frontend framework        | Improve accessibility, consistency |              |                    |
 |                         | Select graph database            | Support knowledge graph            |              |                    |
 
 
@@ -23,7 +22,6 @@
 | Product Area            | Description                      | Benefits                             | Dependencies         | Completed          |
 |-------------------------|----------------------------------|--------------------------------------|----------------------|--------------------|
 | User productivity       |                                  |                                      |                      |                    |
-|                         | Refresh frontend look-and-feel   | Familiar, consistent user experience | Frontend framework   |                    |
 |                         | Collaborative sessions           | Enable multi-user and cross-device   | *peer-base*          |                    |
 |                         | Recipe entity cross-references   | Aid meal preparation                 | Temperature metadata |                    |
 |                         |                                  |                                      | Preparation methods  |                    |
@@ -52,6 +50,8 @@
 | Recipe metadata         |                                  |                                      |                         |                    |
 |                         | Collect: Ingredient seasonality  | User health and reference            |                         |                    |
 |                         | Collect: Ingredient pricing      | Enabling feature                     |                         |                    |
+| Vendor selection        |                                  |                                      |                      |                    |
+|                         | Select frontend framework        | Improve accessibility, consistency   |                      |                    |
 
 
 ## Future
@@ -62,5 +62,6 @@
 |                         | Food budget analysis             | Improve decision-making capability   |                         |                    |
 |                         | External purchase integration    | Offer time-saving capability         | *Vendor APIs*           |                    |
 |                         |                                  | Enable revenue streams               |                         |                    |
+|                         | Refresh frontend look-and-feel   | Familiar, consistent user experience | Frontend framework      |                    |
 
 NB: Dependencies marked in *italics* are external to OpenCulinary
