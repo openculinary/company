@@ -22,6 +22,7 @@
 | Product Area            | Description                      | Benefits                             | Dependencies         | Completed          |
 |-------------------------|----------------------------------|--------------------------------------|----------------------|--------------------|
 | User productivity       |                                  |                                      |                      |                    |
+|                         | Ingredient substitutions         | Improve recipe findability           |                      |                    |
 |                         | Collaborative sessions           | Enable multi-user and cross-device   | *peer-base*          |                    |
 |                         | Recipe entity cross-references   | Aid meal preparation                 | Temperature metadata |                    |
 |                         |                                  |                                      | Preparation methods  |                    |
