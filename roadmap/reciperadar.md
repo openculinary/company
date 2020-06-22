@@ -5,7 +5,7 @@
 | User productivity       |                                  |                                    |              |                    |
 |                         | Spelling corrections             | Increase ingredient findability    |              |                    |
 |                         | Recipe detail page               | Improved readability               |              | :heavy_check_mark: |
-|                         | Recipe yield scaling             | Handle additional use cases        |              |                    |
+|                         | Recipe yield scaling             | Handle additional use cases        |              | :heavy_check_mark: |
 | Developer productivity  |                                  |                                    |              |                    |
 |                         | Simplify deployment              | Ease onboarding, rollbacks         |              | :heavy_check_mark: |
 | Architecture investment |                                  |                                    |              |                    |
