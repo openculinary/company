@@ -11,7 +11,7 @@
 | Architecture investment |                                  |                                    |              |                    |
 |                         | Isolate DB & search index        | Uptime improvements                |              | :heavy_check_mark: |
 |                         | Support DB migrations            | Safer DB deployments               | Isolate DB   | :heavy_check_mark: |
-|                         | Support localStrorage migrations | Enable frontend data model changes |              |                    |
+|                         | Support localStrorage migrations | Enable frontend data model changes |              | :heavy_check_mark: |
 |                         | Consolidate entity extraction    | Ease maintenance and development   |              | :heavy_check_mark: |
 | Vendor selection        |                                  |                                    |              |                    |
 |                         | Select graph database            | Support knowledge graph            |              |                    |
