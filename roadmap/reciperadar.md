@@ -31,7 +31,7 @@
 |                         | Upstream feedback.js changes     | Simplify dependencies                |                      |                    |
 |                         |                                  | Community goodwill and participation |                      |                    |
 | Quality assurance       |                                  |                                      |                      |                    |
-|                         | Add recipe debug panel           | Improve recipe metadata quality      |                      |                    |
+|                         | Add recipe debug panel           | Improve recipe metadata quality      |                      | :heavy_check_mark: |
 |                         |                                  | Speed up data quality investigations |                      |                    |
 | Recipe metadata         |                                  |                                      |                      |                    |
 |                         | Collect: Nutritional information | User health and reference            |                      |                    |
