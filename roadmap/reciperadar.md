@@ -34,7 +34,7 @@
 |                         | Add recipe debug panel           | Improve recipe metadata quality      |                      | :heavy_check_mark: |
 |                         |                                  | Speed up data quality investigations |                      |                    |
 | Recipe metadata         |                                  |                                      |                      |                    |
-|                         | Collect: Nutritional information | User health and reference            |                      |                    |
+|                         | Collect: Nutritional information | User health and reference            |                      | :heavy_check_mark: |
 |                         | Extract: Temperature metadata    | Enabling feature                     |                      |                    |
 |                         | Extract: Preparation metadata    | Enabling feature                     |                      |                    |
 
