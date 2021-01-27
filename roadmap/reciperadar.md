@@ -51,8 +51,8 @@
 | Recipe metadata         |                                  |                                      |                         |                    |
 |                         | Collect: Ingredient seasonality  | User health and reference            |                         |                    |
 |                         | Collect: Ingredient pricing      | Enabling feature                     |                         |                    |
-| Vendor selection        |                                  |                                      |                      |                    |
-|                         | Select frontend framework        | Improve accessibility, consistency   |                      |                    |
+| Vendor selection        |                                  |                                      |                         |                    |
+|                         | Select frontend framework        | Improve accessibility, consistency   |                         |                    |
 
 
 ## Future
