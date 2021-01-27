@@ -48,6 +48,7 @@
 |                         | Suggested meal plans             | Provide nutritional balance          | Inventory management    |                    |
 |                         | Suggested meal plans             | Provide nutritional balance          | Nutritional information |                    |
 |                         | Dietary diagnostics              | Improve digestive health             |                         |                    |
+|                         | Recipe Explorer\*                | Novel, rapid recipe search method    |                         | :heavy_check_mark: |
 | Recipe metadata         |                                  |                                      |                         |                    |
 |                         | Collect: Ingredient seasonality  | User health and reference            |                         |                    |
 |                         | Collect: Ingredient pricing      | Enabling feature                     |                         |                    |
@@ -66,3 +67,5 @@
 |                         | Refresh frontend look-and-feel   | Familiar, consistent user experience | Frontend framework      |                    |
 
 NB: Dependencies marked in *italics* are external to OpenCulinary
+
+NB: Dependencies marked with an asterisk (\*) were speculative projects that landed outside of the planned roadmap
