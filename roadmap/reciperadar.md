@@ -23,7 +23,7 @@
 |-------------------------|----------------------------------|--------------------------------------|----------------------|--------------------|
 | User productivity       |                                  |                                      |                      |                    |
 |                         | Ingredient substitutions         | Improve recipe findability           |                      |                    |
-|                         | Collaborative sessions           | Enable multi-user and cross-device   | *peer-base*          |                    |
+|                         | Collaborative sessions           | Enable multi-user and cross-device   |                      |                    |
 |                         | Recipe entity cross-references   | Aid meal preparation                 | Temperature metadata |                    |
 |                         |                                  |                                      | Preparation methods  |                    |
 | Developer productivity  |                                  |                                      |                      |                    |
