@@ -61,10 +61,17 @@
 | Product Area            | Description                      | Benefits                             | Dependencies            | Completed          |
 |-------------------------|----------------------------------|--------------------------------------|-------------------------|--------------------|
 | User productivity       |                                  |                                      |                         |                    |
+|                         | Ingredient substitutions         | Improve recipe findability           |                         |                    |
 |                         | Food budget analysis             | Improve decision-making capability   |                         |                    |
 |                         | External purchase integration    | Offer time-saving capability         | *Vendor APIs*           |                    |
 |                         |                                  | Enable revenue streams               |                         |                    |
 |                         | Refresh frontend look-and-feel   | Familiar, consistent user experience | Frontend framework      |                    |
+|                         | Inventory management             | Decrease food wastage, expenditure   |                         |                    |
+|                         | Suggested meal plans             | Provide nutritional balance          | Inventory management    |                    |
+|                         | Suggested meal plans             | Provide nutritional balance          | Nutritional information |                    |
+| Recipe metadata         |                                  |                                      |                         |                    |
+|                         | Collect: Ingredient seasonality  | User health and reference            |                         |                    |
+|                         | Collect: Ingredient pricing      | Enabling feature                     |                         |                    |
 
 NB: Dependencies marked in *italics* are external to OpenCulinary
 
