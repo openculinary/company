@@ -29,4 +29,8 @@ A1.c: Decisions that involve risk are documented in the most-relevant correspond
 Not Achieved: no
 Achieved: partially (gap: the organization has no continuous risk review procedure)
 
+A2: Risk Management Process
+
+A2.a: The organization has not yet defined its threat assumptions.  Risk assessments are unclearly defined.  Staff have an implicit, unstated awareness of risk priorities.  Risk assessments, when they occur, are ad-hoc and included as part of issue tracker tasks.  Security risks and perceived security risks are considered important to resolve swiftly.  The organization does not review its performance at managing risk.
+
 [1] - https://www.ncsc.gov.uk/static-assets/documents/cyber-assessment-framework-v3.2.pdf
