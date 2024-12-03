@@ -1,0 +1,12 @@
+RecipeRadar - 2024 Cyber Assessment
+-----------------------------------
+
+This document is an assessment of RecipeRadar (developed and operated by
+OpenCulinary C.I.C.) as of December 2024 using version v3.2 of the UK NCSC
+Cyber Assessment Framework[1].
+
+As a small project, RecipeRadar may benefit from a relatively agile technology
+infrastructure/computing base.  However, the company is also to some extent
+restricted by its technology selection principles (e.g. primarily open-source).
+
+[1] - https://www.ncsc.gov.uk/static-assets/documents/cyber-assessment-framework-v3.2.pdf
