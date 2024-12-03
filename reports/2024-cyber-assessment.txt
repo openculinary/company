@@ -16,4 +16,6 @@ A1: Governance
 
 A1.a: The organization's network and information security approach is owned and managed at the directorial level and is regularly top-of-mind.  However, we do not have a written policy, and as a single-employee organization, there is no guarantee that we would be able to communicate and share the current approach effectively.
 
+A1.b: There are fairly clear delineations between software development responsibilities and infrastructure management tasks within RecipeRadar; these relate closely to corresponding source code and documentation.  To some extent, source control history demonstrates the nature of the work involved -- but not necessarily how it is performed.  As a single-employee organization, accountability belongs to a single individual.
+
 [1] - https://www.ncsc.gov.uk/static-assets/documents/cyber-assessment-framework-v3.2.pdf
