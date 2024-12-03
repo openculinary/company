@@ -18,4 +18,6 @@ A1.a: The organization's network and information security approach is owned and 
 
 A1.b: There are fairly clear delineations between software development responsibilities and infrastructure management tasks within RecipeRadar; these relate closely to corresponding source code and documentation.  To some extent, source control history demonstrates the nature of the work involved -- but not necessarily how it is performed.  As a single-employee organization, accountability belongs to a single individual.
 
+A1.c: Decisions that involve risk are documented in the most-relevant corresponding source control repository where the risk is anticipated to manifest.  As with other bugreports and feature tasks, we expect asynchronous and thoughtful contributions to these, and there is complete visibility of these within the organization.  We do not yet delegate any responsibility outside of the organization, nor have a risk review process.
+
 [1] - https://www.ncsc.gov.uk/static-assets/documents/cyber-assessment-framework-v3.2.pdf
