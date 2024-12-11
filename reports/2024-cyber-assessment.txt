@@ -41,4 +41,9 @@ A2.b: None of the individual mechanisms that the organization believes contribut
 Status: Not Achieved
 Gaps: Absence of assurance testing for the cyber security of the organization and its service.
 
+A3.a: Production assets are minimal and replaceable, and instructions for how to do so are documented, but inadequetely tested/replicated.  This documentation is kept up-to-date.  System dependencies are recognized, as are the upper-bounds on the importance of the systems that the organization provides.  The organization has some reliance on external vendors to manage corporate data, and does not yet have an organization-internal data retention policy.  Cyber security is considered during the lifecycle of information assets, and this informs the organization's policy to avoid hosting or storing sensitive information.
+
+Status: Not Achieved
+Gaps: Evidence of independent from-scratch system recovery is required.  An organizational information retention policy is required.
+
 [1] - https://www.ncsc.gov.uk/static-assets/documents/cyber-assessment-framework-v3.2.pdf
