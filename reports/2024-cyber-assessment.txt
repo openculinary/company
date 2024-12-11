@@ -16,18 +16,18 @@ A1: Governance
 
 A1.a: The organization's network and information security approach is owned and managed at the directorial level and is regularly top-of-mind.  However, we do not have a written policy, and as a single-employee organization, there is no guarantee that we would be able to communicate and share the current approach effectively.
 
-Not Achieved: no
-Achieved: partially (gap: policy documentation -- perhaps roll into our public-facing 'about' / 'vision' pages)
+Status: Achieved (partially)
+Gaps: Policy documentation -- perhaps roll into our public-facing 'about' / 'vision' pages.
 
 A1.b: There are fairly clear delineations between software development responsibilities and infrastructure management tasks within RecipeRadar; these relate closely to corresponding source code and documentation.  To some extent, source control history demonstrates the nature of the work involved -- but not necessarily how it is performed.  As a single-employee organization, accountability belongs to a single individual.
 
-Not Achieved: no
-Achieved: yes (but task definitions may be required if+when additional hiring commences)
+Status: Achieved
+Gaps: None currently - but task definitions may be required if+when additional hiring commences.
 
 A1.c: Decisions that involve risk are documented in the most-relevant corresponding source control repository where the risk is anticipated to manifest.  As with other bugreports and feature tasks, we expect asynchronous and thoughtful contributions to these, and there is complete visibility of these within the organization.  We do not yet delegate any responsibility outside of the organization, nor have a risk review process.
 
-Not Achieved: no
-Achieved: partially (gap: the organization has no continuous risk review procedure)
+Status: Achieved (partially)
+Gaps: The organization has no continuous risk review procedure.
 
 A2: Risk Management Process
 
