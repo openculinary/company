@@ -36,4 +36,9 @@ A2.a: The organization has not yet defined its threat assumptions.  Risk assessm
 Status: Partially Achieved
 Gaps: Lack of risk register and continuous review thereof.
 
+A2.b: None of the individual mechanisms that the organization believes contribute to its security are considered a reliable, sole assurance.  However, the organization has not performed cyber security assurance testing -- either in development or production environments -- and assumes assurance based on lack of evidence of problems so far.
+
+Status: Not Achieved
+Gaps: Absence of assurance testing for the cyber security of the organization and its service.
+
 [1] - https://www.ncsc.gov.uk/static-assets/documents/cyber-assessment-framework-v3.2.pdf
