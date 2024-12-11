@@ -46,4 +46,9 @@ A3.a: Production assets are minimal and replaceable, and instructions for how to
 Status: Not Achieved
 Gaps: Evidence of independent from-scratch system recovery is required.  An organizational information retention policy is required.
 
+A4.a: The organization's suppliers are primarily either providers of corporate information systems, or software authors.  We have some general understanding of the risk of each, and the extent to which each are important/essential for day-to-day and future operation of the business, if it is to succeed.  Generally the organization would prefer not to enter into customized contract agreements.  We do some due diligence to attempt to assess the connections used by suppliers; this is based on the information that we find available on their websites.  We follow supply chain incidents and evaluate their impact on our own supply chain; where possible and within our risk appetite we assist suppliers with incident remediation and resolution.
+
+Status: Partially Achieved
+Gaps: Time, staffing, and processes to perform detailed vendor supply chain analysis on an ongoing basis, and to evaluate the cyber security robustness of those vendors.  These may not be feasible to address until (if) the organization decides to scale up.
+
 [1] - https://www.ncsc.gov.uk/static-assets/documents/cyber-assessment-framework-v3.2.pdf
