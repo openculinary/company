@@ -1,0 +1,56 @@
+RecipeRadar - 2024 Review of Terms and Conditions for recipe websites with Significant Presence
+-----------------------------------------------------------------------------------------------
+
+This document is a point-in-time review of RecipeRadar's compliance with the terms and conditions stated by recipe websites that have a significant presence in the RecipeRadar search index.
+
+We currently define significant presence as websites that have -- or are anticipated soon to have -- 100 or more individual recipes indexed in our search engine.  In some cases this may represent a significant pecenage of the website's recipes (e.g. 150 out of 200 recipes from a recipe website), while in other cases it may be a small fraction (e.g. 150 out of 20k recipes on a recipe website).  We perform the review regardless of the percentage total.
+
+Tasty Kitchen
+-------------
+We do not believe that we infringe copyright of material posted on Tasty Kitchen referenced from RecipeRadar's search engine, nor do we make claim to any Intellectual Property belonging to Tasty Kitchen.
+
+BBC Good Food
+-------------
+We do not believe that RecipeRadar falls under any of the categories listed in 'Excluded websites', and we believe that we provide fair and legal hyperlinks to recipes on BBC Good Food.  We do not claim or attempt to infer any relationship between RecipeRadar and BBC Good Food, and do not attempt to include links to any other partner sites of BBC Good Food.
+
+Although we have asked for consent/permission to display thumbnail images of recipes from BBC Good Food in the past, we have not yet explicitly requested permission to hyperlink to their recipes in the general case.
+
+We will remove BBC Good Food from the search engine results and then send a request to ask for that permission.  We note that RSS feeds are implied exempt from this requirement -- however, we do not currently intend to build an RSS ingest component, and note that there are significant commercial restrictions from BBC Good Food on usage of RSS-originated data that mean it is unlikely we will do so.
+
+AllRecipes
+----------
+As a Dotdash Meridith company, for items (a) through to (m), we believe we are in compliance with all except item (e) from Dotdash Meredith's terms and conditions section 3.3, 'Restrictions on Use of Services' -- for item (e), we believe RecipeRadar is eligible for an exemption as a public search engine, however we must ensure and may need to make modifications (and have begun[1] doing so) to ensure that we do not cache content to comply with this.
+
+BBC Food
+--------
+The terms and conditions for use of BBC Content for business use cases requires permission.  We will remove BBC Food from the search engine results and then send a request to ask for that permission.
+
+Jamie Oliver
+------------
+Although the website delivers a robots.txt file that allows all user-agents, the terms and conditions make fairly clear that permission is required to use content.  We will remove Jamie Oliver from the search engine results and then send a request to ask for that permission.
+
+Taste of Home
+-------------
+As a Trusted Media Brand company, commercial use of content from Taste of Home is prohibited without permission.  We will remove Taste of Home from the search engine results and then send a request to ask for that permission.
+
+The Pioneer Woman
+-----------------
+As a Hearst Group company, commercial use of web crawling to retrieve content from The Pioneer Woman is prohibited.  We will remove The Pioneer Woman from the search engine results.
+
+Steamy Kitchen
+--------------
+Commercial use of content from Steamy Kitchen is prohibited without permission.  We will remove Steamy Kitchen from the search engine results and then send a request to ask for that permission.
+
+Cookie and Kate
+---------------
+Cookie and Kate's terms of use are clear that content is not to be republished or syndicated.  Perhaps it is reasonable for us to get in contact to ask whether a search engine use case without image/direction publication is acceptable - on balance we will remove Cookie and Kate from the search engine results, and will ask for that permission.
+
+101 Cookbooks
+-------------
+Commercial use of content from 101 Cookbooks is prohibited without permission.  We will remove 101 Cookbooks from the search engine results and then send a request to ask for that permission.
+
+Eating Well
+-----------
+As a Dotdash Meridith company, for items (a) through to (m), we believe we are in compliance with all except item (e) from Dotdash Meredith's terms and conditions section 3.3, 'Restrictions on Use of Services' -- for item (e), we believe RecipeRadar is eligible for an exemption as a public search engine, however we must ensure and may need to make modifications (and have begun[1] doing so) to ensure that we do not cache content to comply with this.
+
+[1] - https://github.com/openculinary/crawler/issues/31
