@@ -3,7 +3,7 @@ RecipeRadar - 2024 Review of Terms and Conditions for recipe websites with Signi
 
 This document is a point-in-time review of RecipeRadar's compliance with the terms and conditions stated by recipe websites that have a significant presence in the RecipeRadar search index.
 
-We currently define significant presence as websites that have -- or are anticipated soon to have -- 100 or more individual recipes indexed in our search engine.  In some cases this may represent a significant pecenage of the website's recipes (e.g. 150 out of 200 recipes from a recipe website), while in other cases it may be a small fraction (e.g. 150 out of 20k recipes on a recipe website).  We perform the review regardless of the percentage total.
+We currently define significant presence as websites that have -- or are anticipated soon to have -- 100 or more individual recipe records in our database.  In some cases this may represent a significant pecenage of the website's recipes (e.g. 150 out of 200 recipes from a recipe website), while in other cases it may be a small fraction (e.g. 150 out of 20k recipes on a recipe website).  We perform the review regardless of the percentage total.
 
 Tasty Kitchen
 -------------
