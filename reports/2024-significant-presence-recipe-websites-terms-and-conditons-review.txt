@@ -23,6 +23,8 @@ AllRecipes
 ----------
 As a Dotdash Meridith company, for items (a) through to (m), we believe we are in compliance with all except item (e) from Dotdash Meredith's terms and conditions section 3.3, 'Restrictions on Use of Services' -- for item (e), we believe RecipeRadar is eligible for an exemption as a public search engine, however we must ensure and may need to make modifications (and have begun[1] doing so) to ensure that we do not cache content to comply with this.
 
+Edit: after attempting a crawl of a single recipe, it appears that despite our caching logic adjustments, HTTP requests are being rejected.  As a result, we infer that our crawling is generally unacceptable to the recipe website, and since our existing crawls were based on cached copies, we have removed these from the search index.
+
 BBC Food
 --------
 The terms and conditions for use of BBC Content for business use cases requires permission.  We will remove BBC Food from the search engine results and then send a request to ask for that permission.
@@ -54,5 +56,7 @@ Commercial use of content from 101 Cookbooks is prohibited without permission.  
 Eating Well
 -----------
 As a Dotdash Meridith company, for items (a) through to (m), we believe we are in compliance with all except item (e) from Dotdash Meredith's terms and conditions section 3.3, 'Restrictions on Use of Services' -- for item (e), we believe RecipeRadar is eligible for an exemption as a public search engine, however we must ensure and may need to make modifications (and have begun[1] doing so) to ensure that we do not cache content to comply with this.
+
+Edit: after attempting a crawl of a single recipe, it appears that despite our caching logic adjustments, HTTP requests are being rejected.  As a result, we infer that our crawling is generally unacceptable to the recipe website, and since our existing crawls were based on cached copies, we have removed these from the search index.
 
 [1] - https://github.com/openculinary/crawler/issues/31
