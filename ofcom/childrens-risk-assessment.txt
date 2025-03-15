@@ -1,0 +1,132 @@
+RecipeRadar - UK Online Safety Act: Children's Risk Assessment
+==============================================================
+
+Risk Profile: Search
+--------------------
+
+The RecipeRadar service, as a public-facing web search engine for recipes, maps to the 'Search' risk profile documented in OFCOM's draft Children's Risk Assessment Guidance and Risk Profiles[1] documentation.
+
+The risk factor questionnaire responses for RecipeRadar based on that profile are:
+
+1. Is my service any of the following service types?
+
+  a) General search service (including downstream general search service)?  [N]
+  b) Vertical search service                                                [Y]
+
+2. Does my service have any of the following functionalities?
+   Select all that apply:
+
+  a) Provide users with search predictions or suggestions                   [N]
+  b) Allow users to search for photographs, videos or visual images         [N]
+
+
+Risk Factors
+------------
+
+Specific:
+
+1b) We believe that since the content within the RecipeRadar search index all relates to food ingredients and recipes, there is limited possibility of exposure to CHC during usage of the service.  In addition, we have implemented functionality during our initial OSA risk assessments to allow users to report problematic content if and when it appears in search results, have inspected the contents of our database for potential issues, and have adjusted the format that we use to store references to webpage URLs that are not-yet-confirmed to contain recipes.
+
+RecipeRadar only includes recipe webpages from the clear (open) web, and does not include any dark-web / private content - although it has used anonymity services in the past to retrieve recipes from the public web.
+
+RecipeRadar does not use and does not plan to use any Generative Artificial Intelligence to generate content, either in the software code of the search engine, or in the recipes and ingredients included in the search index, or to respond to user feedback.
+
+RecipeRadar does not provide predictive or personalized search results; it does however provide ephemeral spelling-correction/autosuggest options for individual ingredient names based on text already entered by the user.
+
+General:
+
+User base age
+-------------
+
+0-5: We believe that navigation and usage of the RecipeRadar search service should be harmless and innocuous.  The largest risk factor we perceive here is from external content (e.g. advertising, defaced websites, or expired/repurposed web domains) follow clicks out to external links.  The best mitigations here seem to be for us to keep track of the content of those domains and remove problematic ones, a process that will involve monitoring and responding to user complaints.
+
+6-9: We do not believe that pornographic content can be included in the search engine index under normal conditions; for external links (all of which should be recipe URLs), as above, monitoring and responding to user complaints seems important to keep the service safe for usage.
+
+10-12: Bullying is a complex social problem and sometimes children can taunt or bully using references to everyday experiences, such as clothing, lifestyle choices, parenting, sports preferences, and so on.  It is possible that food ingredients could be used to insult or provoke during bullying behaviour.  RecipeRadar hyperlinks - as with most other websites - can be copied and shared with ease.  It is difficult to know what we could do to reduce or identify these harms, because the URL format for RecipeRadar is intended to cater to various queries within the recipe domain; restricted by valid ingredients, but otherwise without technical constraints.  Allowing hashed or otherwise obfuscated URLs could be one option here; however it does have the drawback that recipients would have less idea of what to expect when opening such a URL.
+
+It is possible that this provides an argument for the usage of link shorteners or other methods that RecipeRadar could use to gain some insight into the channels and frequency with which hyperlinks are shared.  However, this has a clear conflict with our privacy goals, as well as some of our technical principles as related to the way that the web is intended to work.  In addition, we do not believe that many of those link shorteners would provide enough information about the interactions involved to identify bullying behaviour.
+
+13-15: As above with pornographic content, we believe it is unlikely that self-harm or suicide-related content could be included in the RecipeRadar search index; however, it remains a possibility on external websites, and we should monitor and respond to user complaints.
+
+As noted in Volume three of OFCOM's causes-and-impacts of online harms to children consultation[2], eating disorders are also a source of potential harm for children in this age group.  RecipeRadar does not recommend any particular diet, lifestyle, or provide any imagery or descriptions of desirable physical properties.  We do provide some basic filters for relatively common dietary restrictions and intolerances (dairy-free, gluten-free, vegetarian, vegan), and some of the recipe websites included in the index may cater specifically towards those or have names and content that encourages particular lifestyles.  We do not currently draw attention to or adjust the prominence of any recipe website on the basis of its name or dietary focus (if any).
+
+16-17: RecipeRadar does not support the creation of user profiles; it is a feature that we have considered in the past, and it could have some benefits in terms of allowing people to store their dietary and ingredient preferences.  However, much of this can be achieved locally in the browser/device where the service is used.  We believe this should help avoid the possibility of RecipeRadar becoming a popularity contest, source of unhealthy social comparison/competition, or otherwise lock users into using it.
+
+As above, references to adult websites and creation of profiles thereon is expected to be unlikely in the RecipeRadar search index, though we should monitor external content and complaints from users about these because they are not relevant to our business and should not be included.
+
+Other use base demographics
+---------------------------
+
+Business model
+--------------
+We intend to monetize purchase of the additional shopping-list ingredients required, where any exist, by partnering with online food markets.
+
+We do not anticipate these purchases to be typically performed by children, since they will generally require a credit card, debit card or other payment method with the relevant food market(s).
+
+As such, child users would be expected to have a much lower revenue-per-user, and if anything we are slightly disincentivized to provide service to them; other than the fact that familiarity with the RecipeRadar search engine could cause them to be more likely to use it later in life.
+
+A potential future risk could arise if the management of RecipeRadar decides to increase monetization of all users; this could result in exploration of cohorts/audiences that are less-monetized, and therefore attempts to increase monetization of the search engine's usage by children.  To some extent the foundation of OpenCulinary C.I.C. as a Community Interest Company in the UK should assist mitigating this malincentive.
+
+Another risk factor is that the management of RecipeRadar could decide that promoting recipes that cater specifically towards children could result in them nagging their parents to purchase particular ingredients, perhaps at excessive cost or with poor nutritional outcomes.  Again, to some extent we believe that our foundation as a Community Interest Company should assist with mitigating this risk.
+
+Commercial profile
+------------------
+We are currently a single-employee / sole-director company, and although we can leverage some (free and open source, deterministic, non-AI) utilities to perform efficient queries into the content of RecipeRadar's database and search index, this is only one area of the business that we would like to develop, and we will need to focus on others in addition.
+
+Currently we do have the capacity to read all inbound communications, and can respond to any critical issues identified.  However, increased volumes of communication and/or user traffic could result in challenges at our current staffing level.
+
+To some extent, adding functionality to the user interface to allow users to report problematic content may assist with this scalability curve.
+
+
+Evidence
+========
+
+Core (from 2025 Illegal Harms Assessment)
+-----------------------------------------
+
+Service characteristics:
+
+  - RecipeRadar is a recipe search engine that displays recipe names, their authors, their ingredient lists, nutritional and dietary factors, web addresses, serving size, and preparation/cooking time information in search results.  The search results do not include recipe images, nor instructional text of the recipes.
+
+  - None of our search result hyperlinks include marketing affiliate tracking, nor do we plan to add any.
+
+  - We do not accept any payments or provide any marketing services to increase web traffic to any website(s), nor do we plan to.
+
+  - We do not have, nor plan to add advertising to appear alongside search results.
+
+  - We are considering in future adding marketing affiliate tracking during click-to-purchase of required shopping list items.  Shopping lists can solely be created from the ingredients listed in recipes found during use of the recipe search engine.
+
+
+Service controls:
+
+  - Only recipes found on the public web where every ingredient line could successfully be matched against a known ingredient name from a curated collection of ingredients are included in the search results.
+
+  - URLs are stored obfuscated/hashed -- instead of plaintext -- until it is confirmed that they contain recipe content.  Only at this point do the relvant URLs become straightforward for staff to read, e.g. for debugging purposes.
+
+
+Retrospectives:
+
+  - Although RecipeRadar is not yet aware of any incidents related to encounter of illegal harm by users of the search engine, we have recently adjusted the way that URLs are stored, primarily to reduce the potential that we infringe on copyright terms, but this does also we believe reduce some risk of illegal harms being encountered by people with access to the RecipeRadar database (we make backups available openly as a service for developers and also a discouragement to web/AI scrapers).
+
+
+Complaints:
+
+  - RecipeRadar has a feedback mechanism -- not explicitly labeled for use as a complaint channel, but we will update the messaging to include that.  So far we have not received any complaints related to harmful content in the search engine.
+
+
+Other relevant information:
+
+  - The software source code for the search engine is available for anyone to inspect at: https://github.com/openculinary/
+
+
+Core (distinct 2025 Children's Risk Assessment evidence)
+--------------------------------------------------------
+
+Content moderation systems:
+
+  - RecipeRadar is implementing a content feedback reporting system anticipated to be deployed by early March 2025; to begin with, the volume of reports is anticipated to be low, and problem reports will be handled by a database administrator.  Nonetheless we will record report volume and response times, albeit perhaps in an ad-hoc fashion to begin with.
+
+
+[1] - https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/284469-consultation-protecting-children-from-harms-online/associated-documents/a6-draft-childrens-risk-assessment-guidance-risk-profiles.pdf?v=368062
+
+[2] - https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/284469-consultation-protecting-children-from-harms-online/associated-documents/vol3-causes-impacts-of-harms-to-children.pdf?v=336052

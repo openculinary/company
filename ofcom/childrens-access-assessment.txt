@@ -1,0 +1,35 @@
+RecipeRadar - UK Online Safety Act: Children's Access Assessment
+================================================================
+
+Date: 2025-02-20
+Author: James Addison (director, OpenCulinary C.I.C., responsible for RecipeRadar)
+
+Overview
+--------
+This document is an access assessment performed by following guidance[1] from OFCOM, the UK regulator of the Online Safety Act, legislation for which RecipeRadar is in scope as a Part 3 (search service) provider.
+
+Responses
+---------
+
+1. Can children normally access the service, or part of the service?   [Y]
+
+2. Is the child user condition met?
+
+  a) Is my service, or part of my service, of a kind likely to attract
+     a significant number of children?                                 [Y*]
+
+  b) Is there a significant number of children who are users of my
+     service, or part of my service?                                   [Y*]
+
+
+  * In truth, we do not know what percentage of our userbase is children, and
+    we would prefer not to use what we would consider to be intrusive or
+    off-putting methods with outweighing potential negative externalities in
+    order to determine that.  We do think that some children could effectively
+    use the service, either with their parents or independently.  Given the
+    unknowns and belief in potential benefits, we acknowledge that surveying
+    relevant risks is sensible, and respond 'yes' to both questions to require
+    ourselves to follow a Children's Risk Assessment of the service.
+
+
+[1] - https://www.ofcom.org.uk/siteassets/resources/documents/consultations/category-1-10-weeks/statement-age-assurance-and-childrens-access/childrens-access-assessments-guidance.pdf?v=388843

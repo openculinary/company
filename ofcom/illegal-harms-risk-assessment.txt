@@ -1,0 +1,156 @@
+RecipeRadar - UK Online Safety Act: Illegal Harms Risk Assessment
+=================================================================
+
+Risk Profile: Search
+--------------------
+
+The RecipeRadar service, as a public-facing web search engine for recipes, maps to the 'Search' risk profile documented in OFCOM's Risk Assessment Guidance and Risk Profiles[1] documentation, published 2024-12-16.
+
+The risk factor questionnaire responses for RecipeRadar based on that profile are:
+
+1. Is my service any of the following service types?
+
+  a) General search service (including downstream general search service)?  [N]
+  b) Vertical search service                                                [Y]
+
+2. Do child users access my service?                                        [Y]
+
+3. Does my service have any of the following functionalities?
+   Select all that apply:
+
+  a) Provide users with search predictions or suggestions                   [N]
+  b) Allow users to search for photographs, videos or visual images         [N]
+
+
+Risk Factors
+------------
+
+Specific:
+
+1b) Provided that external sites include the recipe content that we have indexed, and do not unexpectedly include illegal harm content, then we do believe that neither terrorism, nor CSEA, nor grooming, nor CSAM, nor hate, nor harassing/stalking/threatful/abusive, nor controlling/coercive, nor intimate-image abuse, nor extreme pornography, nor sexual exploitation, nor human trafficking, nor unlawful immigration, nor fraud, nor proceeds of crime, nor drugs/psychoactive substances, nor firearms/knives/weapons, nor suicide-related content, nor foreign interference, nor animal cruelty will appear in the search engine results.  We do not currently include advertising in the search engine.
+
+2) Children are not an expected audience for RecipeRadar and we do not design or market the search engine to cater to them specifically.  However, since we do not provide any age-sensitive content, and since we acknowledge that children may have genuine and motivated interests in food, and because we do not gate access to the search engine based on user age, we should assume that some children will use the search engine.  We would expect that unhealthy and/or inaccurate recipe information would have an increased risk here; such information also has some risk to adults.
+
+RecipeRadar only includes recipe webpages from the clear (open) web, and does not include any dark-web / private content - although it has used anonymity services in the past to retrieve recipes from the public web.
+
+RecipeRadar does not use and does not plan to use any Generative Artificial Intelligence to generate content, either in the software code of the search engine, or in the recipes and ingredients included in the search index, or to respond to user feedback.
+
+RecipeRadar does not provide predictive or personalized search results; it does provide ephemeral spelling-correction/autosuggest options for individual ingredient names based on text already entered by the user.
+
+General:
+
+User base demographics
+----------------------
+For some religions, consumption of particular animals is deemed taboo or even illegal.  Although no such restrictions exist in secular UK society, the homepage of the recipe search functionality currently features vegetarian and vegan filters.
+
+Filtering to particular preparation methods for ingredients is not yet supported, because we believe that it may be difficult to infer for many recipe ingredients.  However, we would like to support such properties if we begin to offer ingredient-purchase functionality within the application (this relates also to the 'Business model' considerations).
+
+Business model
+--------------
+RecipeRadar does not currently display any advertising within the user interface, nor does it intend to in future.
+
+RecipeRadar also currently lacks a revenue stream; however in future we would like to monetize ingredient purchase, by providing qualified referrals to online food markets.
+
+Commercial profile
+------------------
+RecipeRadar would like to become a widely-used recipe search engine, and to that extent has ambitious growth goals.  However, there is no time pressure to achieve those, no investors awaiting a return-on-investment, and the team finds that supporting and assisting other technical projects can often be a more enjoyable and rewarding distraction.
+
+We do anticipate peer and/or contributor pressure at some point and handling those without compromising the trustworthiness and safety of the service for users may pose some challenges.  Using an easily-forked and yet not-easily-upcommercialized license such as AGPLv3 was an intentional decision to prepare for and mitigate some of this risk.
+
+The search engine index of recipes that we maintain currently holds on the order of tens of thousands of items (hundreds of thousands, if considering each ingredient line as a sub-item), sourced from fewer than two thousand websites.
+
+At a smaller scale, we had been able to collect and write individual messages to each of the recipe websites included in the index; this is beginning to seem unrealistic if the breadth of the recipe website coverage increases, and that introduces some potential for relationship risk with those websites, and reduces the feasibility of meaningfully reviewing website contents for quality and suitability.
+
+
+Assessment of illegal content risk to users of the service
+==========================================================
+
+Priority illegal content
+------------------------
+
+Kind of Illegal Content            | Risk of encounter           | Risk of facilitation
+---------------------------------------------------------------------------------------
+Terrorism                          | Negligible                  | Negligible
+CSEA/CSAM/CSAM URLs                | Negligible                  | Negligible
+Hate                               | Negligible                  | Negligible
+Harassing/Stalking/Threats/Abuse   | Negligible                  | Negligible
+Controlling/Coercive               | Negligible                  | Negligible
+Intimate image abuse               | N/A                         | N/A
+Extreme pornography                | Negligible                  | Negligible
+Sexual exploitation                | Negligible                  | Negligible
+Human trafficking                  | Negligible                  | Negligible
+Unlawful immigration               | Negligible                  | Negligible
+Fraud                              | Negligible                  | Low*
+Proceeds of crime                  | Negligible                  | Low*
+Drugs / psychoactive substances    | Negligible                  | Negligible
+Firearms/knives/weapons            | Negligible**                | Negligible
+Suicide-related content            | Negligible                  | Negligible
+Foreign interference               | Negligible                  | Negligible
+Animal cruelty                     | Negligible                  | Negligible
+Other                              | Generally deemed low        | Generally deemed low
+
+
+ * Web traffic fraud is considered a possible avenue for fraud and money-laundering.
+** Many recipes involve regular kitchen knives during meal preparation.
+
+Non-priority illegal content
+----------------------------
+
+One aspect of RecipeRadar's ingredient scanning that should significantly reduce the risk of harmful recipes being included in the index is that only manually-curated ingredient names are accepted, and every ingredient line from a recipe must be matched for a recipe to be included.
+
+Even so, there is some risk of mismatching ingredient names.
+
+For example: a highly generic curated ingredient product name such as 'seeds' could potentially match against banned or regulated UK herbal medicinal ingredients[2].
+
+This is not a risk that we had anticipated until undertaking this risk assessment, and we will perform a manual review of potentially-relevant recipes and ingredient product names.
+
+
+Evidence
+========
+
+Core
+----
+
+Service characteristics:
+
+  - RecipeRadar is a recipe search engine that displays recipe names, their authors, their ingredient lists, nutritional and dietary factors, web addresses, serving size, and preparation/cooking time information in search results.  The search results do not include recipe images, nor instructional text of the recipes.
+
+  - None of our search result hyperlinks include marketing affiliate tracking, nor do we plan to add any.
+
+  - We do not accept any payments or provide any marketing services to increase web traffic to any website(s), nor do we plan to.
+
+  - We do not have, nor plan to add advertising to appear alongside search results.
+
+  - We are considering in future adding marketing affiliate tracking during click-to-purchase of required shopping list items.  Shopping lists can solely be created from the ingredients listed in recipes found during use of the recipe search engine.
+
+
+Service controls:
+
+  - Only recipes found on the public web where every ingredient line could successfully be matched against a known ingredient name from a curated collection of ingredients are included in the search results.
+
+  - URLs are stored obfuscated/hashed -- instead of plaintext -- until it is confirmed that they contain recipe content.  Only at this point do the relvant URLs become straightforward for staff to read, e.g. for debugging purposes.
+
+
+Retrospectives:
+
+  - Although RecipeRadar is not yet aware of any incidents related to encounter of illegal harm by users of the search engine, we have recently adjusted the way that URLs are stored, primarily to reduce the potential that we infringe on copyright terms, but this does also we believe reduce some risk of illegal harms being encountered by people with access to the RecipeRadar database (we make backups available openly as a service for developers and also a discouragement to web/AI scrapers).
+
+
+Complaints:
+
+  - RecipeRadar has a feedback mechanism -- not explicitly labeled for use as a complaint channel, but we will update the messaging to include that.  So far we have not received any complaints related to harmful content in the search engine.
+
+
+Other relevant information:
+
+  - The software source code for the search engine is available for anyone to inspect at: https://github.com/openculinary/
+
+Enhanced
+--------
+
+* TODO: Could we collect a subset of and/or all URLs visited by click-outs over the past year, and then inspect the corresponding timestamped CommonCrawl / Internet Archive pages and check for both expected (the expected recipe should be there) and potentially harmful (keywords, malware, other?) content?
+
+
+[1] - https://www.ofcom.org.uk/siteassets/resources/documents/online-safety/information-for-industry/illegal-harms/risk-assessment-guidance-and-risk-profiles.pdf?v=390984
+
+[2] - https://www.gov.uk/government/publications/list-of-banned-or-restricted-herbal-ingredients-for-medicinal-use/banned-and-restricted-herbal-ingredients

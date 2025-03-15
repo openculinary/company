@@ -1,0 +1,24 @@
+RecipeRadar - UK Online Safety Act: Risk Assessment Policy
+==========================================================
+
+Overview
+--------
+
+This document outlines the UK Online Safety Act risk assessment policy that RecipeRadar, a recipe search engine and meal planner based in the UK, intends to follow during risk assessments.
+
+The regulatory body for the UK Online Safety Act is OFCOM, and they provide guidance and recommendations about the content of these risk assessments.
+
+Policy
+-----
+
+  * RecipeRadar intends to undertake an UK Online Safety Act risk assessment at least once per calendar year.
+
+  * Each risk assessment will reflect social/technological environmental changes since the previous risk assessment, and also modifications to the RecipeRadar service.
+
+  * Before deploying any significant modifications to the RecipeRadar service, the most recent risk assessment must be reviewed and updated if required.
+
+  * As a sole-director company, currently all risk assessment duties are the responsibility of the company director.
+
+  * Records of risk assessments will be stored using a version control system alongside the company's software source code.
+
+  * When deemed necessary by the company director, risk assessments should undergo legal review.
